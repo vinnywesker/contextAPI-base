@@ -2,10 +2,11 @@ import React, { useContext } from 'react'
 import Context from './contextAPI'
 
 export default props => {
-    const [valor, sadsasd] = useContext(Context)
+    const [ valor ] = useContext(Context)
+
     return (
         <div>
-            <h1>{valor}</h1>
+            <h1>Nome do bonitão: {valor.Nome}</h1>
         </div>
 
     )
