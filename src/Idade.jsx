@@ -7,7 +7,7 @@ export default props => {
     return (
         <div>
             <h1>
-              Idade do bonitão:  {valor.Idade}
+              Idade:  {valor.Idade}
             </h1>
         </div>
 

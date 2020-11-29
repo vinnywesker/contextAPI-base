@@ -5,6 +5,6 @@ const INITIAL_STATE = {
     idade: 0
 }
 
-const Context = createContext('')
+const Context = createContext([])
 
 export default Context

@@ -6,7 +6,7 @@ export default props => {
 
     return (
         <div>
-            <h1>Nome do bonitão: {valor.Nome}</h1>
+            <h1>Nome: {valor.Nome}</h1>
         </div>
 
     )
